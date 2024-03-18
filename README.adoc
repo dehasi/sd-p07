@@ -1,0 +1,12 @@
+= Practice #7
+
+*Main takeaway:* read the book below and use common sense
+
+image::assets/book.png[]
+
+.expand to see a typical picture from architecture books
+[%collapsible]
+====
+.a typical picture from architecture books
+image::assets/ddd.png[]
+====
