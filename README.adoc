@@ -4,9 +4,27 @@
 
 image::assets/book.png[]
 
-.expand to see a typical picture from architecture books
+
+.plan
+* [ ] A bit of common sense
+* [ ] Vocabulary
+** Entity
+** Service
+** Value object
+** Repository
+
+* [ ] Refactor HW to DDD
+* [ ] Short (but important) questionnaire: https://docs.google.com/forms/d/e/1FAIpQLSfVU1s1yIL03s35dIIzFlopotRBLq40yBPTJfR5ZH9XLeiJ-g/viewform
+
+.expand to see typical pictures from architecture books
 [%collapsible]
 ====
 .a typical picture from architecture books
-image::assets/ddd.png[]
+image::assets/onion.png[]
+
+.another typical picture from architecture books
+image::assets/hexagonal.png[]
+
+.and yet another typical picture from architecture books
+image::assets/clean.png[]
 ====
