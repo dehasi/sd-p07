@@ -4,6 +4,7 @@ import java.util.Map;
 
 class RichDomain {
 
+    // Entity
     static class Invoice {
         private int id;
         private int clientId;
@@ -72,6 +73,7 @@ class RichDomain {
         }
     }
 
+    //Value Object
     static final class Money {
         final int amount;
         final Currency currency;
@@ -107,6 +109,7 @@ class RichDomain {
         }
     }
 
+    // Value Object
     static final class Quantity {
         final int amount;
         final Unit unit;
@@ -152,6 +155,7 @@ class RichDomain {
         Item findBy(int id);
     }
 
+    // Applicaition Sernice
     static class ApplicationService {
 
         private InvoiceRepository invoiceRepository;

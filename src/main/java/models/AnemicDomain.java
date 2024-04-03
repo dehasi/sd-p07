@@ -4,6 +4,7 @@ import java.util.Map;
 
 class AnemicDomain {
 
+    // Entity
     static class Invoice {
         int id;
         int clientId;
@@ -168,6 +169,7 @@ class AnemicDomain {
         Item findBy(int id);
     }
 
+    // Applicaiton
     static class ApplicationService {
 
         private InvoiceService invoiceService;
